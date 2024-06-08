@@ -11000,6 +11000,7 @@
                               paddingRight: 20,
                               paddingleft: 20,
                               borderRadius: 10,
+                              borderRadius: 10,
                               alignItems: "center",
                             },
                             children: (0, c.jsx)("img", {
@@ -11007,6 +11008,7 @@
                               width: "90%",
                               height: 250,
                               borderRadius: 10,
+                              alignItems: "center",
                             }),
                           }),
                           (0, c.jsxs)("div", {
@@ -11225,6 +11227,7 @@
                       display: "flex",
                       justifyContent: "space-between",
                       marginTop: 20,
+                      marginBottom: 20,
                     },
                     children: [
                       (0, c.jsx)("div", {
