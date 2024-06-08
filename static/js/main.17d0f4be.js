@@ -11000,11 +11000,12 @@
                               paddingRight: 20,
                               paddingleft: 20,
                               borderRadius: 10,
+                              alignItems: "center",
                             },
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
                               width: "90%",
-                              height: 300,
+                              height: 250,
                               borderRadius: 10,
                             }),
                           }),
