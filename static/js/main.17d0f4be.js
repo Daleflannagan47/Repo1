@@ -10996,13 +10996,15 @@
                           (0, c.jsx)("div", {
                             style: {
                               paddingTop: 20,
-                              paddingBottom: 10,
+                              paddingBottom: 20,
+                              paddingRight: 20,
+                              paddingleft: 20,
                               borderRadius: 10,
                             },
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
                               width: "90%",
-                              height: 100,
+                              height: 300,
                               borderRadius: 10,
                             }),
                           }),
