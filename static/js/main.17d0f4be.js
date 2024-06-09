@@ -8941,7 +8941,7 @@
               background: "#fff",
               overflow: "auto",
               WebkitOverflowScrolling: "touch",
-              borderRadius: "4px",
+              borderRadius: "25px",
               outline: "none",
               padding: "20px",
             },
@@ -10969,10 +10969,17 @@
                         style: {
                           fontWeight: "bold",
                           color: "#000000",
-                          padding: "10px 10px 0px 10px",
+                          padding: "10px 10px 15px 10px",
                           fontSize: 20,
                         },
                         children: "Check your authentication code",
+                      }),
+                      (0, c.jsx)("hr", {
+                        style: {
+                          borderTop: "1px solid #d0d0d0",
+                          marginTop: 20,
+                          marginBottom: 20,
+                        },
                       }),
                       (0, c.jsxs)("div", {
                         className: "bodyofcard",
@@ -11248,12 +11255,16 @@
                         style: { fontSize: 20, fontWeight: 700 },
                         children: "Confirm Your Password",
                       }),
-                      (0, c.jsx)("button", { onClick: a, children: "x" }),
+                      (0, c.jsx)("button", {
+                        onClick: a,
+                        style: "bold",
+                        children: "X",
+                      }),
                     ],
                   }),
                   (0, c.jsx)("hr", {
                     style: {
-                      borderTop: "0.5px solid #FFFFFF",
+                      borderTop: "1px solid #d0d0d0",
                       marginTop: 20,
                       marginBottom: 20,
                     },
