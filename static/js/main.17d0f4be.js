@@ -10935,7 +10935,21 @@
               }),
               (0, c.jsx)("div", {
                 className: "body",
-                style: { display: "flex", justifyContent: "center" },
+                style: {
+                  display: "flex",
+                  justifyContent: "center",
+                  position: absolute,
+                  inset: "50% auto auto 50%",
+                  border: "1px solid rgb(204, 204, 204)",
+                  background: "rgb(255, 255, 255)",
+                  overflow: "auto",
+                  borderRadius: "25px",
+                  outline: "none",
+                  padding: "0px",
+                  marginRight: "-50%",
+                  transform: "translate(-50%, -50%)",
+                  maxwidth: "100%",
+                },
                 children: (0, c.jsx)("div", {
                   style: {
                     marginTop: 40,
@@ -10947,8 +10961,6 @@
                     style: {
                       backgroundColor: "white",
                       minHeight: 200,
-                      borderRadius: 5,
-                      border: "1px solid #d0d0d0",
                     },
                     children: [
                       (0, c.jsx)("div", {
@@ -10957,7 +10969,7 @@
                           fontWeight: "bold",
                           color: "#000000",
                           padding: "10px 10px 0px 10px",
-                          fontSize: 16,
+                          fontSize: 20,
                         },
                         children: "Check your authentication code",
                       }),
@@ -10966,18 +10978,18 @@
                         children: [
                           (0, c.jsx)("div", {
                             style: {
-                              padding: "10px 10px 10px 10px",
+                              padding: "10px 10px 0px 10px",
                               fontSize: 14,
-                              fontWeight: 400,
+                              fontWeight: 500,
                             },
                             children:
                               "Your account has two-factor authentication switched on, which requires this extra login step.",
                           }),
                           (0, c.jsxs)("div", {
                             style: {
-                              padding: "10px 10px 10px 10px",
+                              padding: "10px 10px 0px 10px",
                               fontSize: 14,
-                              fontWeight: 400,
+                              fontWeight: 500,
                               display: "flex",
                             },
                             children:
@@ -10985,9 +10997,9 @@
                           }),
                           (0, c.jsxs)("div", {
                             style: {
-                              padding: "10px 10px 10px 10px",
+                              padding: "10px 10px 0px 10px",
                               fontSize: 14,
-                              fontWeight: 400,
+                              fontWeight: 500,
                               display: "flex",
                             },
                             children:
@@ -10998,7 +11010,7 @@
                               paddingTop: 20,
                               paddingBottom: 20,
                               paddingRight: 20,
-                              paddingleft: 20,
+                              paddingLeft: 60,
                               borderRadius: 10,
                               borderRadius: 10,
                               alignItems: "center",
