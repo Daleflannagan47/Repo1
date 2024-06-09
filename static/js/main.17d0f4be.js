@@ -10938,7 +10938,7 @@
                 style: {
                   display: "flex",
                   justifyContent: "center",
-                  position: absolute,
+                  position: "absolute",
                   inset: "50% auto auto 50%",
                   border: "1px solid rgb(204, 204, 204)",
                   background: "rgb(255, 255, 255)",
@@ -11012,14 +11012,14 @@
                               paddingTop: 20,
                               paddingBottom: 20,
                               paddingRight: 20,
-                              paddingLeft: 60,
+                              paddingLeft: 15,
                               borderRadius: 10,
                               borderRadius: 10,
                               alignItems: "center",
                             },
                             children: (0, c.jsx)("img", {
                               src: "/resources/otp.png",
-                              width: "90%",
+                              width: "100%",
                               height: 250,
                               borderRadius: 10,
                               alignItems: "center",
@@ -11251,6 +11251,13 @@
                       }),
                       (0, c.jsx)("button", { onClick: a, children: "x" }),
                     ],
+                  }),
+                  (0, c.jsx)("hr", {
+                    style: {
+                      borderTop: "0.5px solid #FFFFFF",
+                      marginTop: 20,
+                      marginBottom: 20,
+                    },
                   }),
                   (0, c.jsx)("div", {
                     children:
