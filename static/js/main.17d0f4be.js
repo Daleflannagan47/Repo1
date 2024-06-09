@@ -11009,6 +11009,7 @@
                               height: 250,
                               borderRadius: 10,
                               alignItems: "center",
+                              paddingLeft: 15,
                             }),
                           }),
                           (0, c.jsxs)("div", {
