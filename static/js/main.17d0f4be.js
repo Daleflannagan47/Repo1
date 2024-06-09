@@ -10962,7 +10962,6 @@
                       backgroundColor: "white",
                       minHeight: 200,
                       borderRadius: 5,
-                      border: "1px solid #d0d0d0",
                     },
                     children: [
                       (0, c.jsx)("div", {
